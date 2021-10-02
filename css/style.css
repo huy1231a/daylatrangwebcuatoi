@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  font-family: Roboto, Arial, Helvetica, "Droid Sans", sans-serif;
+  font-size: 0.13.33333vw;
+  font-weight: bold;
+}
+.menu-bar {
+  background: #101215;
+  text-align: center;
+}
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+.menu-bar ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #eec565;
+}
+.menu-bar ul li:hover {
+  text-decoration: under;
+}
+.sub-menu-1 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: #061d25;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: aqua;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a {
+  color: white;
+}
+.menu-bar .active:hover {
+  font-size: 100%;
+}
+
+input[type="text"] {
+  width: 190px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin-top: 60px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 20%;
+}
+.menu {
+  text-align: center;
+}
+.menu ul li {
+  margin: 0;
+
+  padding: 0;
+
+  text-align: center;
+
+  display: inline;
+}
+.menu ul li a {
+  font-size: 20px;
+
+  font-weight: bold;
+
+  color: #757575;
+
+  padding: 0 15px;
+
+  border-right: 1px #0ff333;
+
+  text-decoration: none;
+}
+.menu ul li a:hover{
+    color: #bb996b;
+}
+
+.active, menu ul li a{
+    color:#bb996b;
+    text-decoration: underline;
+}
+.portfolio {
+    margin: 30px auto;
+    width: 1130px;
+  }
+
+
+
+.portfolio .galerry ul li{
+    display: block;
+    
+}
+   .portfolio .galerry {
+    background-color: #fff;
+    padding: 10px;
+    padding-bottom: 6px;
+  }
+  .portfolio .galerry li {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 22px;
+    width: 350px;
+    list-style: none;
+    transition: width 2s, height 2s;
+  }
+  .portfolio .galerry li:nth-child(3n) {
+    margin-right: 0;
+  }
+  .portfolio .galerry li:nth-last-of-type(-n+3) {
+    margin-bottom: 0;
+  }
+  .portfolio .galerry li:hover{
+      width: 40;
+      height: 40;
+  }
+
+/* .sub-menu-1{
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+  
+}
+.sub-menu-1 a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+  
+    
+}
+.sub-menu-1 a:hover{
+    background-color: black;
+}
+.menu-bar:hover .sub-menu-1{
+    display:block;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+} */
